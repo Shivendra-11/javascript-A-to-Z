@@ -21,3 +21,15 @@ console.log(p); // Output: null
 console.log("hello");   // Double-quoted string
 console.log('hello');   // Single-quoted string
 console.log(`hello`);   // Template literal string
+
+
+// Type of operator
+
+console.log(typeof 6.3) //number
+console.log(typeof "number"); //String
+console.log(typeof true) //boolean
+
+console.log(typeof undefined); //undefined
+console.log(typeof null); //object //corner case
+console.log(typeof NaN) //it is a number
+
