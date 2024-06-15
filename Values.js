@@ -32,4 +32,5 @@ console.log(typeof true) //boolean
 console.log(typeof undefined); //undefined
 console.log(typeof null); //object //corner case
 console.log(typeof NaN) //it is a number
-
+console.log(typeof(typeof(233))); //string
+ 
