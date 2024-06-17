@@ -82,6 +82,14 @@ console.log(t >>> 1);// 2, because 0101 >>> 1 is 0010
 console.log("hello"+"world"); //helloworld
 console.log("hello"+2) //hello2
 
+console.log(5+5+5+"5"+5+5); //15555
+
+// Ternary Oerator
+let age = 18;
+let canVote = age >= 18 ? "Yes" : "No";
+console.log(canVote); // Output: Yes
+
+
 
 
 
