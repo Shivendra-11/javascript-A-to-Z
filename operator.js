@@ -63,6 +63,29 @@ console.log(4 && 0);
 console.log(4 || 0);
 console.log(0 || 4);
 
+// Bitwise Operators
+
+
+let t = 5;  // binary: 0i01
+let i= 3;  // binary: 0011
+
+console.log(t & i);  // 1, because 0101 & 0011 is 0001
+console.log(t | i);  // 7, because 0101 | 0011 is 0111
+console.log(t ^ i);  // 6, because 0101 ^ 0011 is 0110
+console.log(~t);     // -6, because ~0101 is 1010 (in two's complement form)
+console.log(t << 1); // 10, because 0101 << 1 is 1010
+console.log(t >> 1); // 2, because 0101 >> 1 is 0010
+console.log(t >>> 1);// 2, because 0101 >>> 1 is 0010
+
+// String Concetanation 
+
+console.log("hello"+"world"); //helloworld
+console.log("hello"+2) //hello2
+
+
+
+
+
 
 
 
