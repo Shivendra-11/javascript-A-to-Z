@@ -23,6 +23,7 @@ var x=arr.map(function process(v,i){
 })
 console.log(x);
 console.log(arr);
+console.log("arrays is continue");
 
 // Map always return a new array    
 // Filter always return a new array
